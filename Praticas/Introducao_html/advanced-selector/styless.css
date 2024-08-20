@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  box-sizing: border-box;
+}
+
+.box-model {
+  width: 500px;
+  height: 500px;
+  background-color: gray;
+  /*padding*/
+  padding: 20px 40px 80px 60px;
+
+  /*Border*/
+  border: 5px ridge red;
+
+  /*margin*/
+  margin: 20px;
+  color: blue;
+}
+
+span {
+  display: block;
+}
+
+.inline {
+  display: inline;
+}

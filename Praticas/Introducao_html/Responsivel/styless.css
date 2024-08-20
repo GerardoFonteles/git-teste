@@ -1,0 +1,25 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 1em;
+}
+
+div {
+  background-color: red;
+  padding: 20px;
+  width: 50%;
+}
+
+@media (min-width: 640px) {
+  div {
+    background-color: blue;
+    width: 100%;
+  }
+}
+
+@media(min-width: 920px){
+    div{
+        background-color: green;
+        width: 100%;
+    }
+}

@@ -1,0 +1,36 @@
+body {
+  font-family: Inter, sans-serif;
+  line-height: 1.5em;
+  font-weight: 400;
+  margin: 0;
+}
+
+.color-red {
+  color: red;
+}
+
+a:active {
+  color: green;
+  font-size: 20px;
+}
+
+a:visited {
+  color: yellow;
+}
+
+a:hover {
+  color: pink;
+}
+
+a::before {
+  content: "Link ";
+}
+
+a::before {
+  content: "--> ";
+}
+
+p::first-line {
+  font-weight: bold;
+  color: blue;
+}
